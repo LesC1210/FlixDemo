@@ -19,6 +19,8 @@
 		CE296F4521617AA800DD25DA /* NowPlayingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE296F4421617AA800DD25DA /* NowPlayingViewController.swift */; };
 		CE8E2E8F21631855001784D3 /* MovieCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE296F462161985900DD25DA /* MovieCell.swift */; };
 		CE8E2E9321632472001784D3 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8E2E9221632472001784D3 /* DetailViewController.swift */; };
+		CE8E2E9521633E9F001784D3 /* PosterCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8E2E9421633E9F001784D3 /* PosterCell.swift */; };
+		CE8E2E9721633EEB001784D3 /* SuperheroViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8E2E9621633EEB001784D3 /* SuperheroViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,6 +65,8 @@
 		CE296F4421617AA800DD25DA /* NowPlayingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NowPlayingViewController.swift; sourceTree = "<group>"; };
 		CE296F462161985900DD25DA /* MovieCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieCell.swift; sourceTree = "<group>"; };
 		CE8E2E9221632472001784D3 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		CE8E2E9421633E9F001784D3 /* PosterCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PosterCell.swift; sourceTree = "<group>"; };
+		CE8E2E9621633EEB001784D3 /* SuperheroViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuperheroViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -175,6 +179,7 @@
 			children = (
 				CE296F4421617AA800DD25DA /* NowPlayingViewController.swift */,
 				CE8E2E9221632472001784D3 /* DetailViewController.swift */,
+				CE8E2E9621633EEB001784D3 /* SuperheroViewController.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -183,6 +188,7 @@
 			isa = PBXGroup;
 			children = (
 				CE296F462161985900DD25DA /* MovieCell.swift */,
+				CE8E2E9421633E9F001784D3 /* PosterCell.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -416,6 +422,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				CE296F4521617AA800DD25DA /* NowPlayingViewController.swift in Sources */,
+				CE8E2E9521633E9F001784D3 /* PosterCell.swift in Sources */,
+				CE8E2E9721633EEB001784D3 /* SuperheroViewController.swift in Sources */,
 				CE296F172161669700DD25DA /* AppDelegate.swift in Sources */,
 				CE8E2E8F21631855001784D3 /* MovieCell.swift in Sources */,
 				CE8E2E9321632472001784D3 /* DetailViewController.swift in Sources */,

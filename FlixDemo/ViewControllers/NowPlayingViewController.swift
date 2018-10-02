@@ -5,7 +5,6 @@
 //  Created by Leslie  on 9/30/18.
 //  Copyright © 2018 Leslie . All rights reserved.
 //
-
 import UIKit
 import AlamofireImage
 
@@ -29,7 +28,7 @@ class NowPlayingViewController: UIViewController, UITableViewDataSource {
         tableView.dataSource = self
         tableView.rowHeight = 200
         fetchMovies()
-       
+        
     }
     
     @objc func didPullToRefresh(_ refreshControl: UIRefreshControl) {
@@ -80,5 +79,18 @@ class NowPlayingViewController: UIViewController, UITableViewDataSource {
         cell.posterImageView.af_setImage(withURL: posterURL)
         
         return cell
+    }
+    
+    
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        let cell = sender as! UITableViewCell
+        if let indexPath = tableView.indexPath(for: cell){
+            let movie = movies[indexPath.row]
+            let detailViewController = segue.destination as! DetailViewController
+            detailViewController.movie = movie
+        }
+        
+        
     }
 }

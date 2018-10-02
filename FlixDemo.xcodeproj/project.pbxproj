@@ -17,7 +17,8 @@
 		CE296F2C2161669800DD25DA /* FlixDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE296F2B2161669800DD25DA /* FlixDemoTests.swift */; };
 		CE296F372161669800DD25DA /* FlixDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE296F362161669800DD25DA /* FlixDemoUITests.swift */; };
 		CE296F4521617AA800DD25DA /* NowPlayingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE296F4421617AA800DD25DA /* NowPlayingViewController.swift */; };
-		CE296F472161985900DD25DA /* MovieCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE296F462161985900DD25DA /* MovieCell.swift */; };
+		CE8E2E8F21631855001784D3 /* MovieCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE296F462161985900DD25DA /* MovieCell.swift */; };
+		CE8E2E9321632472001784D3 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8E2E9221632472001784D3 /* DetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,6 +62,7 @@
 		CE296F382161669800DD25DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CE296F4421617AA800DD25DA /* NowPlayingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NowPlayingViewController.swift; sourceTree = "<group>"; };
 		CE296F462161985900DD25DA /* MovieCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieCell.swift; sourceTree = "<group>"; };
+		CE8E2E9221632472001784D3 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -139,13 +141,13 @@
 		CE296F152161669700DD25DA /* FlixDemo */ = {
 			isa = PBXGroup;
 			children = (
-				CE296F4421617AA800DD25DA /* NowPlayingViewController.swift */,
+				CE8E2E912163242C001784D3 /* Views */,
+				CE8E2E9021632408001784D3 /* ViewControllers */,
 				CE296F162161669700DD25DA /* AppDelegate.swift */,
 				CE296F1A2161669700DD25DA /* Main.storyboard */,
 				CE296F1D2161669800DD25DA /* Assets.xcassets */,
 				CE296F1F2161669800DD25DA /* LaunchScreen.storyboard */,
 				CE296F222161669800DD25DA /* Info.plist */,
-				CE296F462161985900DD25DA /* MovieCell.swift */,
 			);
 			path = FlixDemo;
 			sourceTree = "<group>";
@@ -166,6 +168,23 @@
 				CE296F382161669800DD25DA /* Info.plist */,
 			);
 			path = FlixDemoUITests;
+			sourceTree = "<group>";
+		};
+		CE8E2E9021632408001784D3 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				CE296F4421617AA800DD25DA /* NowPlayingViewController.swift */,
+				CE8E2E9221632472001784D3 /* DetailViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		CE8E2E912163242C001784D3 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				CE296F462161985900DD25DA /* MovieCell.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -398,7 +417,8 @@
 			files = (
 				CE296F4521617AA800DD25DA /* NowPlayingViewController.swift in Sources */,
 				CE296F172161669700DD25DA /* AppDelegate.swift in Sources */,
-				CE296F472161985900DD25DA /* MovieCell.swift in Sources */,
+				CE8E2E8F21631855001784D3 /* MovieCell.swift in Sources */,
+				CE8E2E9321632472001784D3 /* DetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

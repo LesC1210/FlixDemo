@@ -21,6 +21,8 @@
 		CE8E2E9321632472001784D3 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8E2E9221632472001784D3 /* DetailViewController.swift */; };
 		CE8E2E9521633E9F001784D3 /* PosterCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8E2E9421633E9F001784D3 /* PosterCell.swift */; };
 		CE8E2E9721633EEB001784D3 /* SuperheroViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8E2E9621633EEB001784D3 /* SuperheroViewController.swift */; };
+		CEFA3C2D21790B0900244741 /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEFA3C2C21790B0900244741 /* Movie.swift */; };
+		CEFA3C2F2179110500244741 /* MovieApiManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEFA3C2E2179110500244741 /* MovieApiManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -67,6 +69,8 @@
 		CE8E2E9221632472001784D3 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		CE8E2E9421633E9F001784D3 /* PosterCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PosterCell.swift; sourceTree = "<group>"; };
 		CE8E2E9621633EEB001784D3 /* SuperheroViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuperheroViewController.swift; sourceTree = "<group>"; };
+		CEFA3C2C21790B0900244741 /* Movie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
+		CEFA3C2E2179110500244741 /* MovieApiManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieApiManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -149,6 +153,7 @@
 				CE8E2E9021632408001784D3 /* ViewControllers */,
 				CE296F162161669700DD25DA /* AppDelegate.swift */,
 				CE296F1A2161669700DD25DA /* Main.storyboard */,
+				CEFA3C2C21790B0900244741 /* Movie.swift */,
 				CE296F1D2161669800DD25DA /* Assets.xcassets */,
 				CE296F1F2161669800DD25DA /* LaunchScreen.storyboard */,
 				CE296F222161669800DD25DA /* Info.plist */,
@@ -178,6 +183,7 @@
 			isa = PBXGroup;
 			children = (
 				CE296F4421617AA800DD25DA /* NowPlayingViewController.swift */,
+				CEFA3C2E2179110500244741 /* MovieApiManager.swift */,
 				CE8E2E9221632472001784D3 /* DetailViewController.swift */,
 				CE8E2E9621633EEB001784D3 /* SuperheroViewController.swift */,
 			);
@@ -421,10 +427,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CEFA3C2D21790B0900244741 /* Movie.swift in Sources */,
 				CE296F4521617AA800DD25DA /* NowPlayingViewController.swift in Sources */,
 				CE8E2E9521633E9F001784D3 /* PosterCell.swift in Sources */,
 				CE8E2E9721633EEB001784D3 /* SuperheroViewController.swift in Sources */,
 				CE296F172161669700DD25DA /* AppDelegate.swift in Sources */,
+				CEFA3C2F2179110500244741 /* MovieApiManager.swift in Sources */,
 				CE8E2E8F21631855001784D3 /* MovieCell.swift in Sources */,
 				CE8E2E9321632472001784D3 /* DetailViewController.swift in Sources */,
 			);
